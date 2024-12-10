@@ -1,0 +1,239 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(214, 223, 217);
+    padding: 10px 20px 0px;
+    font-size: 16px;
+}
+
+
+
+.menu ul {
+    list-style-type: none;
+    
+}
+
+.menu li:hover {
+    background-color: rgb(199, 199, 199);
+    font-weight: bold;
+}
+
+.menu li {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 4px;
+    text-decoration: none; 
+}
+
+.menu a {
+    text-decoration: none; 
+}
+
+
+.header {
+    background-color: rgb(255, 255, 255);
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid gray;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.content .tituloInicial {
+    font-size: 48px;
+}
+
+.content p {
+    text-align: justify;
+    font-size: 24px;
+    float: left; 
+    margin-right: 20px;
+    
+}
+
+.content img {
+    float: right; 
+    margin-right: 20px; 
+    width: 720px; 
+    margin-bottom: 15px; 
+    border-radius: 4px;
+    box-shadow: 10px 10px 0.5;
+    margin-left: 110px;
+}
+
+
+.footer {
+    background-color: rgb(214, 223, 217);
+    min-height: 150px;
+    display: flex;
+    padding: 0 20px;
+    gap: 20px;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.footer .horario p {
+    margin: 0 0 4px 0;
+}
+
+.footer .contato a {
+    display: block;
+    margin: 0 0 4px 0;
+}
+
+.footer .contato address {
+    margin: 0 0 4px 0;
+}
+
+.contentClinica {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    height: 100%;
+    display: block;
+    align-items: center;
+}
+.contentClinica .sobreAClinica {
+    text-align: justify;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.contentClinica .details{
+    font-size: 24px;
+}
+
+.contentClinica summary {
+    margin: 10px 0;
+}
+
+.contentHorarioAtendimento {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    height: 100%;
+    display: block;
+    align-items: center;
+}
+
+.horarioAtendimento p {
+    font-size: 24px;
+}
+
+.horarioAtendimento table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.horarioAtendimento td, th {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.horarioAtendimento .cabeçalho {
+    background-color: #f3f2f2;
+}
+
+.horarioAtendimento .tituloHorario {
+    font-size: 48px;
+}
+
+.contentContato {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    align-items: center;
+    font-size: 21px;
+}
+
+.contentContato .form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentContato .form input, 
+.contentContato .form textarea {
+    padding: 10px; 
+    border-radius: 4px; 
+    border: 1px solid #ccc; 
+    font-size: 16px; 
+    width: 100%;
+}
+
+.contentContato .form textarea {
+    height: 120px;
+}
+
+.contentContato button {
+    margin: 16px auto 0;
+    width: 50%; 
+    height: 40px; 
+    color: white; 
+    border: none; 
+    font-size: 16px; 
+    cursor: pointer;
+    
+}
+
+.contentContato .enviar {
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.contentContato .limpar {
+    background-color: #585858; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.contentContato .tituloContato{
+    font-size: 48px;
+}
+
+
